@@ -4,14 +4,16 @@ import './App.css';
 
 // 注意！下面placehold是操作编译必需的占位符，一定一定不能删！
 import Button from './nxs-ui/lib/button.js';
+import Text from './nxs-ui/lib/text.js';
 
 
 function App() {
     return (
-        <Fragment>
+        <div className="page-content">
             <Button>测试</Button>
-            <Button>QC</Button>
-        </Fragment>
+            <Button>测试</Button>
+            <Text text={'asdads'}></Text>
+        </div>
     );
 }
 
